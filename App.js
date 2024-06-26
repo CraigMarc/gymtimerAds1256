@@ -21,6 +21,8 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 
 import Countdown from './Countdown.js'
+import Banner from './Banner.js'
+
 
 const App = () => {
 
@@ -43,7 +45,7 @@ const App = () => {
         buttonColor={buttonColor}
         setButtonColor={setButtonColor}
       />
-
+<Banner />
     </>
   )
 
