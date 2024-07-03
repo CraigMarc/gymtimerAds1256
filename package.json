@@ -7,7 +7,10 @@
     "ios": "react-native run-ios",
     "lint": "eslint .",
     "start": "react-native start",
-    "test": "jest"
+    "test": "jest",
+    "gradle_build": "cd android && gradlew.bat --stacktrace --info assembleRelease -x bundleArReleaseJsAndAssets",
+    "gradle_install": "cd android && gradlew.bat installArDebug --stacktrace --info",
+    "stacktrace": "cd android && gradlew.bat installDebug --stacktrace --info"
   },
   "dependencies": {
     "@sayem314/react-native-keep-awake": "^1.2.3",

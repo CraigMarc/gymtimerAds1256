@@ -1,7 +1,6 @@
 //import React from 'react';
 import { useState, useEffect } from 'react'
-//import React from 'react';
-//import type {Node} from 'react';
+import mobileAds from 'react-native-google-mobile-ads';
 import {
   SafeAreaView,
   ScrollView,
@@ -26,6 +25,14 @@ import Banner from './Banner.js'
 
 const App = () => {
 
+// initialize mobile ads sdk
+/*
+mobileAds()
+  .initialize()
+  .then(adapterStatuses => {
+    // Initialization complete!
+  });*/
+
   //states
   const [timer, setTimer] = useState("03:00");
   const [running, setRunning] = useState(true)
@@ -48,6 +55,14 @@ const App = () => {
 <Banner />
     </>
   )
+/*
+  return (
+      <>
+       <Banner />
+
+      </>
+    )*/
+
 
 }
 
