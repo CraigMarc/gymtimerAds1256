@@ -22,6 +22,7 @@ import {
 import Countdown from './Countdown.js'
 import Banner from './Banner.js'
 import Inter from './Inter.js'
+import Reward from './Reward.js'
 
 const App = () => {
 
@@ -54,6 +55,7 @@ mobileAds()
       />
 <Banner />
 <Inter />
+<Reward />
     </>
   )
 /*
