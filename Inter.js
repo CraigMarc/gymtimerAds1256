@@ -3,6 +3,7 @@ import { Button } from 'react-native';
 import { InterstitialAd, AdEventType, TestIds } from 'react-native-google-mobile-ads';
 
 const adUnitId = __DEV__ ? TestIds.INTERSTITIAL : 'ca-app-pub-xxxxxxxxxxxxx/yyyyyyyyyyyyyy';
+//const adUnitId = 'ca-app-pub-3866044541725967/6123074423'
 
 const interstitial = InterstitialAd.createForAdRequest(adUnitId, {
   keywords: ['fashion'],
