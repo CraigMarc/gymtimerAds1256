@@ -10,7 +10,7 @@
       android:allowBackup="false"
       android:theme="@style/AppTheme">
         <meta-data
-            android:name="com.google.android.gms.ads.gymtimerAds1256"
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="ca-app-pub-3866044541725967~8626697260"/>
       <activity
         android:name=".MainActivity"

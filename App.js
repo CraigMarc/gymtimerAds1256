@@ -21,7 +21,7 @@ import {
 
 import Countdown from './Countdown.js'
 import Banner from './Banner.js'
-
+import Inter from './Inter.js'
 
 const App = () => {
 
@@ -53,6 +53,7 @@ mobileAds()
         setButtonColor={setButtonColor}
       />
 <Banner />
+<Inter />
     </>
   )
 /*

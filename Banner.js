@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from 'react'
 import { BannerAd, BannerAdSize, TestIds } from 'react-native-google-mobile-ads';
 
 const adUnitId = __DEV__ ? TestIds.BANNER : 'ca-app-pub-3866044541725967/8548189104';
-/*
+
 function Banner() {
   return (
     <BannerAd
@@ -10,14 +10,10 @@ function Banner() {
       size={BannerAdSize.ANCHORED_ADAPTIVE_BANNER}
     />
   );
-}*/
+}
+
 
 /*
-function Banner() {
-
-<BannerAd unitId={TestIds.BANNER} />
-}*/
-
 function Banner() {
 return (
 // place your own ad unit id in the unitId variable
@@ -33,6 +29,6 @@ return (
         }}
         />
         )
-}
+}*/
 
 export default Banner;
